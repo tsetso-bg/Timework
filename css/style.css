@@ -30,11 +30,24 @@ header{
 	width: 200px;
 }
 
-.logo img{
+.logo a img{
 	margin:10px 60%;
-	width: 150px;
+	  -moz-transition: all 0.9s ease-out;  /* FF4+ */
+    -o-transition: all 0.9s ease-out;  /* Opera 10.5+ */
+    -webkit-transition: all 0.9s ease-out;  /* Saf3.2+, Chrome */
+    -ms-transition: all 0.9s ease-out;  /* IE10? */
+    transition: all 0.9s ease-out;  
+	
+}
 
-	margin-top: 10px;
+.logo a img:hover{
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+        -moz-transition: all 0.9s ease-out;  /* FF4+ */
+    -o-transition: all 0.9s ease-out;  /* Opera 10.5+ */
+    -webkit-transition: all 0.9s ease-out;  /* Saf3.2+, Chrome */
+    -ms-transition: all 0.9s ease-out;  /* IE10? */
+    transition: all 0.9s ease-out;  
 }
 
 
@@ -63,15 +76,26 @@ ul li a{
 	font-family: 'PT Sans', Tahoma, sans-serif;
 }
 ul li a:hover{
-	background: #4CA0DB;
-	/*background: #FABF0C;*/
-	color: #fff;
+	padding-top: 50px;
+	background: #234465;
+	color: #234465;
 	text-decoration: none;
 	font-size: 14px;
 	font-weight:bold;
 	-webkit-border-radius: 5px;
 	font-family: 'PT Sans', Tahoma, sans-serif;
 }
+
+/*ul li a:hover{
+	background: #4CA0DB;
+	
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight:bold;
+	-webkit-border-radius: 5px;
+	font-family: 'PT Sans', Tahoma, sans-serif;
+}*/
 .buton {
 	background: #FF9C00;
 	margin-right: 15%;
