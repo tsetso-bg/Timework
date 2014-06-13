@@ -41,7 +41,7 @@ header{
 }
 
 .logo a img:hover{
-	opacity: 0.4;
+	opacity: 0.0;
     filter: alpha(opacity=40);
         -moz-transition: all 0.9s ease-out;  /* FF4+ */
     -o-transition: all 0.9s ease-out;  /* Opera 10.5+ */
@@ -60,13 +60,21 @@ header{
 ul li{
 	
 	list-style-type: none;
-	
 	float:left;
 	margin: 5px;
-	
 	margin-top: 50px;
 	color: #fff;
 }
+
+ul li:hover{
+	
+	list-style-type: none;
+	float:left;
+	margin: 5px;
+	margin-top: 50px;
+	color: #234465;
+}
+
 ul li a{
 	color: #fff;
 	text-decoration: none;
@@ -77,8 +85,8 @@ ul li a{
 }
 ul li a:hover{
 	padding-top: 50px;
-	background: #234465;
-	color: #234465;
+	background: #4CA0DB;
+	color: #4CA0DB;
 	text-decoration: none;
 	font-size: 14px;
 	font-weight:bold;
@@ -108,6 +116,12 @@ ul li a:hover{
 .buton a{
 	text-decoration: none;
 	color: #fff;
+	font-family: 'PT Sans', Tahoma, sans-serif;
+}
+
+.buton a:hover{
+	text-decoration: none;
+	color: #FF9C00;
 	font-family: 'PT Sans', Tahoma, sans-serif;
 }
 
